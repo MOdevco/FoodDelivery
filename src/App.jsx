@@ -408,7 +408,7 @@ function App() {
 
 
         <Box marginTop={20} display={{base: "block", sm: "flex"}} justifyContent={"space-between"}>
-          <Box display={"flex"} justifyContent={'center'} >
+          <Box >
             <Box >
               <img src={logoo} alt="" />
             <Box marginTop={5}>
@@ -417,7 +417,7 @@ function App() {
             </Box>
           </Box>
 
-          <Box display={"flex"} justifyContent={'center'} marginTop={10}>
+          <Box marginTop={10}>
              <Box display={"flex"} flexDirection={"column"} gap={4} fontSize={{base: "20", md:  "19"}}>
               <Text color={"#878787"}>Product</Text>
               <Text color={"#F95555"}>Home</Text>
@@ -429,7 +429,7 @@ function App() {
              </Box>
           </Box>
 
-          <Box display={"flex"} justifyContent={'center'} marginTop={10}>
+          <Box marginTop={10}>
              <Box display={"flex"} flexDirection={"column"} gap={4} fontSize={{base: "20", md:  "19"}}>
               <Text color={"#878787"}>Social</Text>
               <Text>Twitter</Text>
@@ -441,7 +441,7 @@ function App() {
              </Box>
           </Box>
 
-          <Box display={"flex"} justifyContent={'center'} marginTop={10}>
+          <Box marginTop={10}>
              <Box display={"flex"} flexDirection={"column"} gap={4}  fontSize={{base: "20", md:  "19"}}>
               <Text color={"#878787"}>Legal</Text>
               <Text>Terms</Text>
@@ -484,3 +484,5 @@ function App() {
 }
 
 export default App
+
+
